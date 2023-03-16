@@ -1,0 +1,27 @@
+
+#title{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 800;
+    size: 50px;
+
+}
+#my-textarea{ 
+    resize: none;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#body{
+    text-align: center;
+    width: 700px;
+    height: 700px;
+}
+
+#foot{
+  display: flex;
+  justify-content: space-evenly;
+}
+#nickname{
+    resize: none;
+    font-family: 'Noto Sans KR', sans-serif;
+}
