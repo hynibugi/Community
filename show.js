@@ -5,7 +5,9 @@ document.addEventListener('DOMContentLoaded', function () {
         const key = localStorage.key(i);
         const value = localStorage.getItem(key);
         console.log(`${key}: ${value}`);
-
+        if(key==='dataCount'){
+            continue;
+        }
         const data = JSON.parse(value);
         const nickname = data.nickname;
         const title = data.title;
