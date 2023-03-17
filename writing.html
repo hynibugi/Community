@@ -9,7 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
-        <script type="text/javascript" src="./board.js" defer></script>
+        <script type="text/javascript" src="./writing.js" defer></script>
         <title>게시글작성</title>
     </head>
     <body>
@@ -19,8 +19,15 @@
             <textarea id="my-textarea" rows="30" cols="100"></textarea>
             <footer id="foot">
                 <button class="writing" id="wbutton" type="submit">글쓰기</button>
-                <button class="writing">중요</button>
+
+                <label>
+                    <input type="checkbox" id="importantcontent">
+                    중요
+                </label>
+
+
             </footer>
         </form>
+        <a href="./show.html" class="button">목록으로가기</a>
     </body>
 </html>

@@ -1,0 +1,27 @@
+#title{
+background-color:lightgrey;
+font-family: 'Noto Sans KR', sans-serif;
+font-weight: bold;
+font-size: 30px;
+margin-bottom: 10px;
+width: 500px;
+
+}
+#text{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid lightgrey;    
+    }
+
+.selectlist{
+    width: 500px;
+    height: 500px;
+    
+}
+.delete{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+}
