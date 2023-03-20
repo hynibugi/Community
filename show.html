@@ -15,7 +15,7 @@
                 <th>닉네임</th>
             </tr>
             <template id="template">
-                <div class="textlist">
+                <div class="textlist" id="search">
                     <tr>
                         <td>
                             <span class="title">
@@ -30,5 +30,13 @@
             </template>
         </table>
         <a href="./writing.html" class="button">글쓰기🚀</a>
+        <div id="search">
+            <select id="type" name="type">
+                <option value="name">닉네임</option>
+                <option value="posttitle">게시물이름</option>
+            </select>
+            <textarea rows="1" cols="10">검색</textarea>
+            <button id="button">제출</button>
+        </div>
     </body>
 </html>

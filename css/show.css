@@ -1,3 +1,12 @@
-/* .importantcontent{
-   background-color: powderblue;
-} */
+textarea {
+   resize: none;
+ }
+
+/* 
+ *{
+   border: 1px solid;
+ } */
+
+ #search{
+   display: flex;
+ }
