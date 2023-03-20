@@ -10,3 +10,4 @@
 ✅데이터 베이스 구현X(로컬스토리지 사용함)<br>
 ✅타이틀과 닉네임의 검색기능<br>
 
+![readme](https://user-images.githubusercontent.com/117284093/226276965-32ab6edd-3c9b-480e-8461-53337fffaa9f.jpg)
